@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wearit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WearIT"
+        tools:replace="android:theme">
+        <activity
+            android:name=".admin.order.AdminOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TrackingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkout.address.AddAddressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.products.ListProductsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.addProduct.SelectCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.addProduct.AddProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.addCategory.ListCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WishListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".categoryActivity.CategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkout.orderComplete.OrderCompleteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkout.address.AddressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkout.CheckOutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".singleProductPage.SingleProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserAccount.UserAccountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

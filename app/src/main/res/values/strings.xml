@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">WearIT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="opt1">Already have an account?</string>
+    <string name="opt2">Do not have an account?</string>
+    <string name="signupTitle">SIGN UP</string>
+    <string name="loginTitle">LOG IN</string>
+    <string name="signup">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="googleIn">Login with google</string>
+    <string name="appleIn">Login with apple</string>
+    <string name="facebookIn">Login with facebook</string>
+    <string name="name">Username</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="location">Location</string>
+    <string name="email">Email</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="remember">Remember me</string>
+    <string name="terms1">By signing up you accept the</string>
+    <string name="terms2">Terms of service</string>
+    <string name="and">and</string>
+    <string name="terms3">Privacy Policy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="title_activity_cart_fragment">CartFragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--    sharedpref keys-->
+    <string name="isLoggedKey">isl</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="wishlist">WishList</string>
+    <string name="profile">Profile</string>
+
+    <string name="isLogged" translatable="false">issl</string>
+    <string name="api_key" translatable="false">apk</string>
+    <string name="email_key" translatable="false">ek</string>
+    <string name="contact" translatable="false">con</string>
+    <string name="name_key" translatable="false">nk</string>
+    <string name="created_key" translatable="false">ck</string>
+    <string name="category">Category</string>
+    <string name="categories">Categories</string>
+    <string name="staff_key">sk</string>
+    <string name="title_activity_add_address">AddAddressActivity</string>
+
+    <string name="order_placed">Order Placed</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

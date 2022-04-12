@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normal_spacing"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/normal_spacing"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cameraIV"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/rect"
+                android:padding="@dimen/small_spacing"
+                android:src="@drawable/ic_baseline_camera_alt_24" />
+
+            <ImageView
+                android:id="@+id/galleryIV"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/normal_spacing"
+                android:background="@drawable/rect"
+                android:padding="@dimen/small_spacing"
+                android:src="@drawable/ic_baseline_image_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/normal_spacing"
+                android:text="Select Image"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/selectedIV"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/normal_spacing"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/catNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/normal_spacing"
+            android:height="50dp"
+            android:background="@drawable/box_shape"
+            android:backgroundTint="@color/grey"
+            android:hint="Category Name"
+            android:padding="@dimen/normal_spacing"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="UPLOAD"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
